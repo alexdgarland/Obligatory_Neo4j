@@ -1,21 +1,32 @@
-﻿using System;
+﻿/*
+ * 
+ * Example code for blog post http://alexdgarland.wordpress.com/2014/01/14/obligatory-neo4j-3
+ * Trying out Neo4jClient  https://github.com/Readify/Neo4jClient/wiki
+ * Please be aware that this is no way intended to demonstrate best practice for working with this client or Neo4j in general!
+ *
+ * Alex Garland 16/01/2014
+ * 
+ */
+
+/*
+ * This code file deals mainly with program flow; connections to the API/ database are mainly handled through the simple class hierarchy in NamedNode.cs.
+ */
+
+using System;
 using System.Collections;
 using Neo4jClient;          //Add by using Nuget Package Manager ("Install-Package Neo4jClient")
 
 namespace Neo4jWidgetManager
 {
-
-
     class EnterpriseWidgetManager
     {
-	
         static void Main(string[] args)
         {
             // Set up connection
             var client = new GraphClient(new Uri("http://localhost:7474/db/data"));
             client.Connect();
 
-            //Clear down database of widgets, components and usage relationships
+            // Clear down database of widgets, components and usage relationships
             ClearDown(client);
 
             // Create widgets
@@ -69,6 +80,4 @@ namespace Neo4jWidgetManager
         }
 
     }
-	
-	
 }
