@@ -2,7 +2,8 @@
  * 
  * Example code for blog post http://alexdgarland.wordpress.com/2014/01/14/obligatory-neo4j-3
  * Trying out Neo4jClient  https://github.com/Readify/Neo4jClient/wiki
- * Please be aware that this is no way intended to demonstrate best practice for working with this client or Neo4j in general!
+ * Please be aware that this is no way intended to demonstrate best practice
+ * for working with this client or Neo4j in general!
  *
  * Alex Garland 16/01/2014
  * 
@@ -82,7 +83,8 @@ namespace Neo4jWidgetManager
                     .Results;
         }
 
-        // Didn't fancy altering Component class to have a default constructor (necessary for Neo4jClient node deserialisation),
+        // Didn't fancy altering Component class to have a default constructor
+        // (necessary for Neo4jClient node deserialisation),
         // so this nested class is a least-worst hack to save me abandoning the specific API I wanted.
         private class ComponentResult
         {

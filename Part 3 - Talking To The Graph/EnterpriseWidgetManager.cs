@@ -2,14 +2,16 @@
  * 
  * Example code for blog post http://alexdgarland.wordpress.com/2014/01/14/obligatory-neo4j-3
  * Trying out Neo4jClient  https://github.com/Readify/Neo4jClient/wiki
- * Please be aware that this is no way intended to demonstrate best practice for working with this client or Neo4j in general!
+ * Please be aware that this is no way intended to demonstrate best practice
+ * for working with this client or Neo4j in general!
  *
  * Alex Garland 16/01/2014
  * 
  */
 
 /*
- * This code file deals mainly with program flow; connections to the API/ database are mainly handled through the simple class hierarchy in NamedNode.cs.
+ * This code file deals mainly with program flow; connections to the API/ database are
+ * mainly handled through the simple class hierarchy in NamedNode.cs.
  */
 
 using System;
