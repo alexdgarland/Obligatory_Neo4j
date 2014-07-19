@@ -1,6 +1,6 @@
 ﻿/*
  * 
- * Example code for blog post http://alexdgarland.wordpress.com/2014/01/14/obligatory-neo4j-3
+ * Example code for blog post alexdgarland.com/2014/01/17/obligatory-neo4j-3/
  * Trying out Neo4jClient  https://github.com/Readify/Neo4jClient/wiki
  * Please be aware that this is no way intended to demonstrate best practice
  * for working with this client or Neo4j in general!
